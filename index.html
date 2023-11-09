@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind World</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Sign-check-icon.png/768px-Sign-check-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body class="bg-[#0F041C]">
+    <header class="">
+        <nav class="container bg-transparent  mx-auto flex justify-between p-4">
+            <div>
+                <img class="animate__animated animate__bounce" src="./src/logo.png" alt="">
+            </div>
+            <div class="text-slate-50 flex gap-10 items-center ">
+                <div class="hidden sm:hidden md:hidden lg:block">
+                    <a href="" class="text-xl mx-8">Home</a>
+                    <a href="" class="text-xl mx-8">About</a>
+                    <a href="" class="text-xl mx-8">Contact</a>
+                    <input class="bg-[#7B678A] px-4 py-2 rounded-md opacity-[0.5] focus:outline-0"
+                        placeholder="Search Here" type="search">
+                    <img class="inline mx-8" src="./src/bagIcon.png" alt="">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="w-[100%] h-[100vh] bg-center bg-cover bg-fixed bg-no-repeat"
+            style="background-image: url(./src/wave.png);">
+
+            <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 text-white container mx-auto">
+                <div class="flex justify-center items-center order-2 sm:order-2 md:order-1">
+                    <div class="">
+                        <span
+                            class="text-xl font-light tracking-wider text-center sm:text-center md:text-left  block">Virtual
+                            Headsets</span>
+
+                        <h2 class="text-3xl sm:text-3xl md:text-6xl md:text-left text-center font-bold leading-snug">
+                            Experience a <br> new dimension of <br> reality
+                        </h2>
+
+                        <div class="mt-5 flex gap-2">
+                            <img class="" src="./src/Star 4.svg" alt="">
+                            <p class="mt-2">Step into the future with our virtual headset, come to life right <br>
+                                before your eyes</p>
+                        </div>
+                        <div class="mt-5 flex gap-4 justify-center sm:justify-center md:justify-start">
+                            <button class="bg-[#3DDEED] px-[24px] py-[16px] flex items-center gap-3 "><span
+                                    class="text-slate-950 text-lg ">
+                                    Visit Store
+                                </span>
+                                <img src="./src/arrow_forward.svg" alt="">
+                            </button>
+
+                            <button
+                                class=" rounded-md px-[24px] py-[16px] flex gap-3 border border-[#FFFFFF] hover:bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%"><img
+                                    src="./src/explore.svg" alt=""><span>Explore</span></button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class=" flex justify-center mt-5 sm:mt-5 md:mt-0 order-1 sm:order-1 md:order-2">
+                    <img class="w-96 sm:w-96 md:w-full" src="./src/hero.png" alt="">
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
